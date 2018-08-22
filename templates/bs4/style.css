@@ -1,0 +1,9 @@
+.main{
+	margin: 2% 0;
+}
+.card-body {
+    border-top: 1px solid #dfdfdf;
+}
+.jumbotron {
+    padding: 2rem 2rem;
+}
