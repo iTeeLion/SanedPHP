@@ -1,2 +1,2 @@
 # sanedPHP
-PHP lid for using sane scanners in your browser
+PHP lib for using sane scanners in your browser
