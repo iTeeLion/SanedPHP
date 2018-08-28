@@ -2,6 +2,7 @@
 $LANG = Array(
     // Buttons
 	'doscan' => 'Scan',
+    'clear' => 'Clear',
 	'download' => 'Download',
 	// Parameters
 	'device' => 'Scanner',

@@ -52,14 +52,14 @@
 									</select>
 								</div>
 								<button type="submit" class="btn btn-default"><?=$LANG['doscan']?></button>
-                                <a href="./" class="btn btn-default">Очистить</a>
+                                <a href="./" class="btn btn-default"><?=$LANG['clear']?></a>
 							</form>
 						</div>
 					</div>
 					<div class="col-sm-12 col-md-6">
 						<div class="card" style="">
                             <? $img = ($_REQUEST['file']) ? $SNDPHP->getPath($_REQUEST['file'], $_REQUEST['format']) : $TEMPLATE_DIR.'/noimg.png'; ?>
-							<img class="card-img-top" src="<?=$img?>" alt="Card image cap">
+							<img class="card-img-top" src="<?=$img?>" alt="Scan image">
                             <? if($_REQUEST['file']): ?>
                                 <div class="card-body text-right">
                                     <a href="<?=$SNDPHP->getPath($_REQUEST['file'], $_REQUEST['format'])?>" target="_blank" class="btn btn-primary"><?=$LANG['download']?></a>
