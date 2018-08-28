@@ -35,7 +35,7 @@ class sanedPHP {
     /*
      *  UI
      */
-    function viewScan($s, $f){
+    function viewScan($s){
         $q = $_POST;
         $q['op'] = 'view';
         $qs = '';
@@ -91,7 +91,7 @@ class sanedPHP {
                 if(!$c){ $f = $fd; }
             }
             $this->chmodScan($s, $f);
-			$this->viewScan($s, $f);
+			$this->viewScan($s);
 		}
 	}
 
